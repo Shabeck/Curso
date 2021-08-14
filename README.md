@@ -1,1 +1,1 @@
-# Curso
+# Curso Práctico de JS

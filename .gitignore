@@ -105,3 +105,5 @@ dist
 
 #Configuración de Visual Studio Code
 .vscode
+
+#Solo quiero probar si lo subo desde WSL toma como usuario Shabeck

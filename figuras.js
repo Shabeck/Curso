@@ -34,7 +34,7 @@ function alturaIsoceles (lado1, lado2, base){
   }
 
   const altura = Math.sqrt(lado1**2-(lado2/2)**2);
-  return ("La altura es: "+ altura);
+  return (" La altura es: "+ altura);
 
 }
 
@@ -79,10 +79,25 @@ function calcularPerimetroCuadrado() {
   const perimetro = perimetroCuadrado(value);
   alert(perimetro);
 }
+
 function calcularAreaCuadrado() {
   const input = document.getElementById("InputCuadrado");
   const value = input.value;
 
   const area = areaCuadrado(value);
   alert(area);
+}
+
+function calcularIsoceles() {
+  const inputLado1 = document.getElementById("InputLado1");
+  const valueLado1 = inputLado1.value;
+  
+  const inputLado2 = document.getElementById("InputLado2");
+  const valueLado2 = inputLado2.value;
+  
+  const inputBase = document.getElementById("InputBase");
+  const valueBase = inputBase.value;
+
+  const validacion = alturaIsoceles(valueLado1,valueLado2,valueBase);
+  alert(validacion);
 }

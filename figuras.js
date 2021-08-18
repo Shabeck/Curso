@@ -25,6 +25,19 @@ function areaTriangulo(base, altura) {
 console.log("El área del triángulo es: " + areaTriangulo + "cmˆ2");
 
 
+function alturaIsoceles (lado1, lado2, base){
+
+  if (lado1 != lado2) {
+    console.error("Los lados 1 y 2 no son iguales");
+  } else{
+    console.log("Es un triángulo Isoceles");
+  }
+
+  const altura = Math.sqrt(lado1**2-(lado2/2)**2);
+  return ("La altura es: "+ altura);
+
+}
+
 console.groupEnd();
 
 

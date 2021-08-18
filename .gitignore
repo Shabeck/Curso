@@ -214,4 +214,9 @@ dist
 #Configuración de Visual Studio Code
 .vscode
 
+#LiveServer
+node_modules
+
+
+
 #Solo quiero probar si lo subo desde WSL toma como usuario Shabeck
